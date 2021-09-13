@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f4ee20a794.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+                rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+                crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Bootstrap 5</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light fixed-top">
+
+        <div class="container my-3">
+          <a class="navbar-brand" href="#">Frontend Bootstrap
+            <img src="" alt="" class="fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#What you'll learn">What you'll learn</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Questions">Questions</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#Instructors">Instructors</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section class="p-5 p-lg-0 bg-dark">
+        <div class="container d-flex bg-dark justify-content-center align-items-center mt-5"> 
+            <div class="d-none d-sm-block">
+                <h1 class="text-light"> Become a <span class="text-warning">Web Developer</span></h1>
+                <p class="text-white py-3 lead">We focus on teaching our students the fundamentals of the latest 
+                                                and greatest technologies to prepare them for their first dev role
+                </p>
+                <button type="button" class="btn btn-primary btn-lg text-white">Start The Enrolment</button>
+            </div>
+            <div class="mt-5">
+                <img src="/img/showcase.svg" alt="showcase" class="img-fluid" style="font-size: 50%;">
+            </div>
+        </div>
+      </section>
+      <section class="p-5 bg-primary">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="paragraphy">
+                <p class="text-white lead"><strong>Signup for Our Newsletter</strong></p>
+            </div>
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-dark text-white" type="button" id="button-addon2">Submit</button>
+            </div>
+        </div>
+      </section>
+      <section class="p-5">
+         <div class="container">
+             <div class="row">
+                 <div class="col">
+                     <div class="card">
+                         <div class="card-body text-center bg-dark text-light">
+                             <div class="item">
+                                 <div class="h1 mb-3"><i class="fas fa-laptop"></i></div>
+                                 <h3>Vitual</h3>
+                                 <p class="">
+                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                     Quas reiciendis dignissimos tempora esse quod rerum aperiam! 
+                                     Nam, vitae alias? Molestias.
+                                 </p>
+                                 <button type="button" class="btn btn-primary text-white">Read More</button>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center bg-secondary text-light">
+                            <div class="item">
+                                <div class="h1 mb-3"><i class="fas fa-portrait"></i></div>
+                                <h3>Hybrid</h3>
+                                <p class="">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Quas reiciendis dignissimos tempora esse quod rerum aperiam! 
+                                    Nam, vitae alias? Molestias.
+                                </p>
+                                <button type="button" class="btn btn-dark text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body text-center bg-dark text-light">
+                            <div class="item">
+                                <div class="h1 mb-3"><i class="fas fa-user-friends"></i></div>
+                                <h3>In Person</h3>
+                                <p class="">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Quas reiciendis dignissimos tempora esse quod rerum aperiam! 
+                                    Nam, vitae alias? Molestias.
+                                </p>
+                                <button type="button" class="btn btn-primary text-white">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+         </div>
+      </section>
+      <section class="p-5" id="What you'll learn">
+          <div class="container d-flex justify-content-between gap-4"> 
+              <div class="col">
+                <img src="/img/fundamentals.svg" alt="fundamentals" class="img-fluid">
+              </div>
+              <div class="col p-5">
+                  <h1>Learn The Fundamentals</h1>
+                  <p class="">
+                      Lorem ipsum dolor sit amet, 
+                      consectetur adipisicing elit. Optio, nihil. A, minima labore. 
+                      Labore iusto vero molestiae, assumenda facilis illum.
+                  </p>
+                  <p class="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi exercitationem, 
+                    quibusdam culpa pariatur sequi enim corporis alias 
+                    fugiat provident illo vitae nihil quis eos recusandae repudiandae aperiam ab perferendis quas.
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="fas fa-chevron-right"></i>
+                    Read More
+                </a>
+              </div>
+        </div>
+      </section>
+      <section class="p-5 bg-dark" id="What you'll learn">
+          <div class="container d-flex align-items-center justify-content-center py-4">
+            <div class="col text-light pe-5">
+                <h1 class="">Learn React</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quibusdam dolor accusamus perspiciatis praesentium, esse dolore.
+                </p>
+                <p class="text-light">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse corporis et labore repudiandae 
+                    illo expedita dolorem enim animi quos ipsa tenetur dolore libero exercitationem similique, 
+                    molestiae ex, consequuntur voluptatum quidem?
+                </p>
+                <a href="#" class="btn btn-light mt-3">
+                    <i class="fas fa-chevron-right"></i>
+                    Read More
+                </a>
+            </div>
+            <div class="col">
+                <img src="/img/react.svg" alt="react" class="img-fluid">
+            </div>
+          </div>
+      </section>
+      <section class="p-5" id="Questions">
+          <div class="container">
+            <div class="accordion" id="Questions">
+                <h1 class="text-center my-3">frequent Ask Questions</h1>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                     Where exactly are you located?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae libero sequi ducimus! Quam 
+                      voluptatem pariatur cum nobis harum quo voluptatibus! Error consequatur temporibus eum fugiat ipsa praesentium, 
+                      non eos voluptatum? Fugit maxime repellendus distinctio voluptatem sequi tenetur 
+                      consequuntur illum quis unde, assumenda qui quod minus aperiam, ratione nam asperiores ducimus?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      How much does it cost to attend?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#Questions">
+                    <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae libero sequi ducimus! Quam 
+                        voluptatem pariatur cum nobis harum quo voluptatibus! Error consequatur temporibus eum fugiat ipsa praesentium, 
+                        non eos voluptatum? Fugit maxime repellendus distinctio voluptatem sequi tenetur 
+                        consequuntur illum quis unde, assumenda qui quod minus aperiam, ratione nam asperiores ducimus?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What do i need to know?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#Questions">
+                    <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae libero sequi ducimus! Quam 
+                        voluptatem pariatur cum nobis harum quo voluptatibus! Error consequatur temporibus eum fugiat ipsa praesentium, 
+                        non eos voluptatum? Fugit maxime repellendus distinctio voluptatem sequi tenetur 
+                        consequuntur illum quis unde, assumenda qui quod minus aperiam, ratione nam asperiores ducimus?
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        How do i Signup?
+                      </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#Questions">
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae libero sequi ducimus! Quam 
+                        voluptatem pariatur cum nobis harum quo voluptatibus! Error consequatur temporibus eum fugiat ipsa praesentium, 
+                        non eos voluptatum? Fugit maxime repellendus distinctio voluptatem sequi tenetur 
+                        consequuntur illum quis unde, assumenda qui quod minus aperiam, ratione nam asperiores ducimus?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Do you help me find a job?
+                      </button>
+                    </h2>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#Questions">
+                      <div class="accordion-body">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae libero sequi ducimus! Quam 
+                        voluptatem pariatur cum nobis harum quo voluptatibus! Error consequatur temporibus eum fugiat ipsa praesentium, 
+                        non eos voluptatum? Fugit maxime repellendus distinctio voluptatem sequi tenetur 
+                        consequuntur illum quis unde, assumenda qui quod minus aperiam, ratione nam asperiores ducimus?
+                      </div>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section class="p-5 bg-primary" id="Instructors">
+          <div class="container">
+            <div class="row">
+                <h1 class="text-center text-light">Our Instructors</h1>
+                <p class="text-center text-light mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, asperiores.</p>
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/1.jpg" class="card-img-top rounded-circle mx-auto d-block px-5 py-3" alt="">
+                        <div class="card-body text-center bg-light text-dark">
+                            <div class="item">
+                                <h3>Mr Hammed Ade</h3>
+                                <p class="">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Quas reiciendis dignissimos tempora esse quod rerum aperiam! 
+                                    Nam, vitae alias? Molestias.
+                                </p>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-twitter text-dark"></i>    
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-facebook-f text-dark"></i>   
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-linkedin-in text-dark"></i>  
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-instagram text-dark"></i>  
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/2.jpg" class="card-img-top rounded-circle mx-auto d-block px-5 py-3" alt="">
+                        <div class="card-body text-center bg-light text-dark">
+                            <div class="item">
+                                <h3>Mr Hammed Ade</h3>
+                                <p class="">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Quas reiciendis dignissimos tempora esse quod rerum aperiam! 
+                                    Nam, vitae alias? Molestias.
+                                </p>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-twitter text-dark"></i>    
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-facebook-f text-dark"></i>   
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-linkedin-in text-dark"></i>  
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-instagram text-dark"></i>  
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/3.jpg" class="card-img-top rounded-circle mx-auto d-block px-5 py-3" alt="">
+                        <div class="card-body text-center bg-light text-dark">
+                            <div class="item">
+                                <h3>Mr Hammed Ade</h3>
+                                <p class="">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Quas reiciendis dignissimos tempora esse quod rerum aperiam! 
+                                    Nam, vitae alias? Molestias.
+                                </p>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-twitter text-dark"></i>    
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-facebook-f text-dark"></i>   
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-linkedin-in text-dark"></i>  
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-instagram text-dark"></i>  
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="/img/4.jpg" class="card-img-top rounded-circle mx-auto d-block px-5 py-3" alt="">
+                        <div class="card-body text-center bg-light text-dark">
+                            <div class="item">
+                                <h3>Mr Hammed Ade</h3>
+                                <p class="">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                                    Quas reiciendis dignissimos tempora esse quod rerum aperiam! 
+                                    Nam, vitae alias? Molestias.
+                                </p>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-twitter text-dark"></i>    
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-facebook-f text-dark"></i>   
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-linkedin-in text-dark"></i>  
+                                    </a>
+                                    <a href="#" class="text-decoration-none p-2">
+                                        <i class="fab fa-instagram text-dark"></i>  
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+          </div>
+      </section>
+    <section class="p-5">
+       <div class="container d-flex">
+        <div class="row">
+            <div class="col-md">
+                <h2>Contact Us</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">+2347032969748</li>
+                    <li class="list-group-item">GRA Ilorin, Kwara State.
+                    </li>
+                    <li class="list-group-item">Email: sulymanhammed2015@gmail.com</li>
+                </ul>
+            </div>
+            
+            <div id="map">
+             
+            </div>
+        </div>
+       </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted d-flex align-items-center">
+    <!-- Copyright -->
+    <div class="text-center d-flex-none d-block p-5 text-light lead" style="background-color: rgba(0, 0, 0, 0.05);">
+      &copy; 2021 Copyright:
+      <a class="text-reset fw-bold text-decoration-none" href="">Frontend Dev</a>
+    </div>
+    <div class="btn ms-auto px-5">
+       <a href="#top" class="h1-md"><i class="fas fa-arrow-circle-up"></i></a> 
+    </div>
+    <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+                integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+                crossorigin="anonymous"></script>
+</body>
+</html>
